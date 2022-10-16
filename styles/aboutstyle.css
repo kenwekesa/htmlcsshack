@@ -1,0 +1,93 @@
+.mainContainer
+{
+    background-color: rgba(19, 18, 18, 0.618);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.navbar .links
+{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: end;
+    margin-right: 40px;
+}
+
+.link
+{
+    list-style-type: none;
+}
+.link a:hover
+{
+    color: rgb(19, 19, 235);
+    border-bottom:2px solid rgb(241, 94, 9);
+}
+.link a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.whoWeAre
+{
+    width: 100%;
+    background-color: white;
+    margin-top: 250px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 90px;
+}
+
+.whoWeAre .details
+{
+    display: flex;
+    gap: 30px;
+    width: 80%;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.whoWeAre .title  h2
+{
+    color: rgb(234, 29, 11);
+    font-size: 30px;
+    font-weight: bold;
+}
+.whoWeAre .title  .stroke
+{
+    
+    color: rgb(234, 29, 11);
+}
+
+.whoWeAre .title  h3
+{
+    
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.details img
+{
+    width: 450px;
+    height: 400px;
+}
+.details .detdiv p{
+    font-size: 24px;
+    line-height: 24px;
+    margin:0;
+    animation: 20ms ease-in;
+    
+}
+.details .detdiv h3{
+    font-size: 40px;
+    font-weight: 100;
+}
